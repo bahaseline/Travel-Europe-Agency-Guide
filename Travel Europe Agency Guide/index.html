@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMoon</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@100;200;300;400;600;700&family=Raleway:ital,wght@1,200&display=swap"
+     rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="file:///C:/Users/celina/Desktop/TravelMoon1/about.html">
+    <a href="file:///C:/Users/celina/Desktop/TravelMoon1/about.html"></a>
+</head>
+
+<body>
+
+
+    <section class="header">
+
+<nav>
+    <a href="index.html"><img src="images/sb5.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()" ></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="places.html">PLACES</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+    <h1>Find Your Destination Now</h1>
+    <p>Travel as much as you can. <br> As far as you can. <br>   As long as you can. <br> 
+        Life's not meant to be lived in one place </p>
+    <p> </p>
+    <a href="about.html" class="hero-btn">About Us</a>
+</div>
+    </section>
+
+
+    <section class="travell99">
+       
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <h1>Some Photos From Us</h1>
+
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/HD wallpaper_ bridge, river, thames, big ben, london, united kingdom, europe.jpg" style="width:100%">
+          <div class="text">London</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/HD wallpaper_ canal, reflection, waterway, amsterdam, netherlands, europe.jpg" style="width:100%">
+          <div class="text">Amsterdam</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/Download wallpaper 1366x768 rome, italy, vatican city, citta della stato tablet, laptop hd background.jpg" style="width:100%">
+          <div class="text">Rome</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000);   
+        }
+        </script>
+</section>
+
+
+   <!-----travell-------->
+   <section class="travell">
+    <h1>Suggested Destinations For Summer </h1>
+    <p>We're here to help you discover the traveler within. This passion-packed list 
+        of 2022's must-see destinations, places, and immeasurable experiences
+        is backed by our experts in travel.Find your summer destination here.</p>
+        
+    <div class="row">
+        <div class="travell-col">
+            <h3>Barcelona</h3>
+            <a href="Barcelona.html" class="hero-btn"><span>Find Out More Here</span></a>
+        </div>
+
+        <div class="travell-col">
+            <h3>Venice</h3>
+            <a href="venice.html" class="hero-btn"><span>Find Out More Here</span></a>
+        </div>
+
+        <div class="travell-col">
+            <h3>Santorini</h3>
+            <a href="Santorini.html" class="hero-btn"> <span>Find Out More Here</span> </a>
+        </div>
+  </div>
+ </section>
+
+
+ <section class="travell">
+    <h1>Suggested Destinations For Winter</h1>
+    <p>We're here to help you discover the traveler within. This passion-packed list 
+        of 2022's must-see destinations, places, and immeasurable experiences
+         is backed by our experts in travel.Find your winter destination here.</p>
+    <div class="row">
+        <div class="travell-col">
+            <h3>Swiss Alps</h3>
+            <a href="Swiss Alps.html" class="hero-btn"><span>Find Out More Here</span></a>
+        </div>
+
+        <div class="travell-col">
+            <h3>Amsterdam</h3>
+            <a href="amsterdam.html" class="hero-btn"><span>Find Out More Here</span></a>
+        </div>
+
+        <div class="travell-col">
+            <h3>Prague</h3>
+            <a href="prague.html" class="hero-btn"><span>Find Out More Here</span></a>
+        </div>
+  </div>
+ </section>
+
+
+ <!----- places -------->
+
+<section class="placess">
+<h1>Popular Destinations</h1>
+<p></p>
+<div class="row">
+    <div class="placess-col">
+        <img src="images/12 Best Things To See In Barcelona.jpg" >
+        <div class="layer">
+            <h3>Barcelona</h3>
+
+        </div>
+    </div>
+
+    <div class="placess-col">
+        <img src="images/photo4.jpg" >
+        <div class="layer">
+            <h3>Paris</h3>
+            
+        </div>
+    </div>
+
+    <div class="placess-col">
+        <img src="images/15 Best Free Things To Do In Rome.jpg" >
+        <div class="layer">
+            <h3>Rome</h3>
+            
+        </div>
+    </div>
+</div>
+ </section>
+
+
+ <!------- Food -------->
+
+ <section class="food">
+     <h1>Famous Food In Europe</h1>
+     <p>
+
+     </p>
+
+    <div class="row">
+        <div class="food-col">
+            <img src="images/Pizza toppings.jpg" >
+            <h3>Pizza(Italy)</h3>
+            <p>Pizza  is a dish of Italian origin consisting of a usually round, flat base of
+                leavened wheat-based dough 
+                topped with tomatoes, cheese, and often various other ingredients 
+                (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is
+                then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is
+                sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.
+                In Italy, pizza served in a restaurant is presented unsliced, and is eaten with
+                the use of a knife and fork.In casual settings, however, it is cut into wedges to 
+                be eaten while held in the hand.</p>
+         </div>
+
+         <div class="food-col">
+            <img src="images/Fish and Chips for St_ Paddy_s Day.jpg" >
+            <h3>Fish and Chips(England) </h3>
+            <p>Fish and chips is a popular hot dish consisting of fried fish in crispy batter, served with chips.
+                 The dish originated in England, where these two components had been introduced from separate immigrant 
+                 cultures; it is not known who created the culinary fusion that became the emblematic British meal.Often
+                  considered Britain's national dish, fish and chips is a common take-away food in the United
+                 Kingdom and numerous other countries, particularly in English-speaking and Commonwealth nations.</p>
+            
+        </div>
+
+        <div class="food-col">
+            <img src="images/43 Pics and Memes To Get You Through The Day.jpg" >
+            <h3>Gyros(Greece)</h3>
+            <p>Gyros—in some regions, chiefly North America, anglicized as a gyro is a food item of Greek origin
+                 made from meat cooked on a vertical rotisserie and served wrapped or stuffed in pita bread, along
+                  with ingredients such as tomato, onion, fried potatoes, and tzatziki. In Greece,
+                 it is normally made with pork or sometimes with chicken, whilst beef and lamb are also used in other 
+                 countries.</p>
+            
+        </div>
+    </div> 
+ </section>
+
+<!--- critics -->
+
+<section class="critics">
+    <h1>What Our Clients Says</h1>
+ 
+
+<div class="row">
+    <div class="critics-col">
+      <img src="images/Beautiful Freckles.jpg" >
+      <div>
+          <p>"We have booked with this travel agency ferryboat tickets and 4 star hotel in Crete.
+               I must say that customer service is incredible and super fast. They even introduced us 
+               to local car rental company, 
+              without even asking for fee from car rental. I'm really amazed. Well Done !!! "</p>
+          <h3>Christine Berkley</h3>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-o" ></i>
+      </div>
+    </div>
+
+    <div class="critics-col">
+        <img src="images/Matt Bomer _ Jake Gyllenhaal.jpg" >
+        <div>
+            <p>"This is the 4th time I travel with this travel agency. 
+                They have very good prices and above all very good service. I highly recommend it."</p>
+            <h3>Matt Bomer</h3>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-half-o" ></i>
+        </div>
+      </div>
+</div>
+</section>
+
+<!--- call to action -->
+
+<section class="cta">
+    <h1>Enroll For Our Various Online Suggestions <br> From Every Place In Europe</h1>
+     <a href="contact.html" class="hero-btn">Contact us</a>
+</section>
+
+<!--- end -->
+
+<section class="end"> 
+    <h4>About Us</h4>
+    <p>For two decades we have been providing high quality travel services & products, <br>
+         responding immediately to every request and covering every travel need.</p>
+         <div class="icons">
+             <a href="https://www.facebook.com/MitropolitikoKollegio/"><i class="fa fa-facebook" ></i></a>
+             <a href="https://www.youtube.com/c/Mitropolitiko-kollegio"><i class="fa fa-youtube"></i></a>
+             <a href="https://www.instagram.com/mitropolitiko_kollegio/"><i class="fa fa-instagram" ></i></a>
+             <a href="https://www.linkedin.com/company/mitropolitiko-kollegio/"><i class="fa fa-linkedin" ></i></a>
+        </div>
+        <p>Made With <i class="fa fa-heart-o" ></i> by TravelMoon</p>
+</section>
+
+<!-----JavaScript for Toogle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";       
+        } 
+        function hideMenu(){
+            navLinks.style.right = "-200px";     
+        } 
+    </script>
+    
+</body>
+</html>

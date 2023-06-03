@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMoon</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@100;200;300;400;600;700&family=Raleway:ital,wght@1,200&display=swap"
+     rel="stylesheet">
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<!--- header -->
+
+    <section class="sub-header">
+
+<nav>
+    <a href="index.html"><img src="images/sb5.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()" ></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="places.html">PLACES</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+       <h1>Contact Us</h1>
+</section>
+
+<!--- Contact Us -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.798284317798!2d22.937105515402585!3d40.63433027934044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a8390848c773f3%3A0xf70b4f8723bf28b0!2zzpzOt8-Ez4HOv8-Azr_Ou865z4TOuc66z4wgzprOv867zrvOrc6zzrnOvyAtIENhbXB1cyDOmM61z4PPg86xzrvOv869zq_Ous63z4I!5e0!3m2!1sel!2sgr!4v1651418068922!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home" ></i>
+                    <span>
+                        <h5>Ελ. Βενιζέλου 14 Metropolitan College</h5>
+                        <p> Θεσσαλονίκη 546 24</p>
+                    </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone" ></i>
+                    <span>
+                       <h5>21 3333 0300 </h5>
+                        <p> Τετάρτη	9:00π.μ.–9:00μ.μ. <br>
+                            Πέμπτη	9:00π.μ.–9:00μ.μ. <br>
+                            Παρασκευή	9:00π.μ.–9:00μ.μ. <br>
+                            Σάββατο	Κλειστά <br>
+                            Κυριακή	Κλειστά <br>
+                            Δευτέρα	9:00π.μ.–9:00μ.μ.<br>
+                            Τρίτη	9:00π.μ.–9:00μ.μ.</p>
+                    </span>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope-o" ></i>
+                    <span>
+                        <h5>travelmoon@hotmail.com</h5>
+                        <p> Email Us Your Query</p>
+                    </span>
+            </div>
+
+        </div>
+
+    <div class="contact-col">
+        <form action="form.php" method="post">
+             <input type="text" name="name" placeholder="Enter Your Name" required>
+             <input type="Email" name="email" placeholder="Enter Email Address" required>
+             <input type="text" name="place" placeholder="Enter Your Destination " required>
+             <textarea rows="8" name="message" placeholder="Message" required></textarea>
+             <button type="Submit" class="hero-btn red-btn"> Send Message</button>
+        </form>
+        </div>
+
+
+    </div>
+
+</section> 
+
+
+<div class="table-c">
+    <h1 class="heading">Our Other Locations </h1>
+    <table class="table">
+        <thead>
+            <tr>
+             <th>Name</th>
+             <th>Location</th>
+             <th>Working Days</th>
+             <th>Working Hours</th>
+            </tr>
+        </thead>
+<tbody>
+   <tr>
+       <td data-label="Name">TravelMoon</td>
+       <td data-label="Location">Athens <br> Larisa <br> Crete <br> Patra </td>
+       <td data-label="Working Days">Monday to Friday</td>
+       <td data-label="Working Hours">9:00π.μ.–9:00μ.μ. <br>
+        9:00π.μ.–9:00μ.μ. <br>
+       9:00π.μ.–9:00μ.μ. <br>
+         9:00π.μ.–9:00μ.μ. <br>
+         9:00π.μ.–9:00μ.μ.</td>
+   </tr> 
+</tbody>
+    </table>
+</div>
+
+
+<!--- end -->
+
+<section class="end"> 
+    <h4>About Us</h4>
+    <p>For two decades we have been providing high quality travel services & products, <br>
+         responding immediately to every request and covering every travel need.</p>
+         <div class="icons">
+            <a href="https://www.facebook.com/MitropolitikoKollegio/"><i class="fa fa-facebook" ></i></a>
+            <a href="https://www.youtube.com/c/Mitropolitiko-kollegio"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/mitropolitiko_kollegio/"><i class="fa fa-instagram" ></i></a>
+            <a href="https://www.linkedin.com/company/mitropolitiko-kollegio/"><i class="fa fa-linkedin" ></i></a>
+        </div>
+        <p>Made With <i class="fa fa-heart-o" ></i> by TravelMoon</p>
+</section>    
+</body>
+</html>
+
+
