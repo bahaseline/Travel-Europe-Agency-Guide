@@ -20,11 +20,14 @@ The website is designed to be fully responsive, ensuring a seamless experience a
 # Technologies Used
 The project utilizes the following technologies:
 
-# HTML: Used for structuring the web pages and organizing the content.
+# HTML:
+Used for structuring the web pages and organizing the content.
 
-# CSS: Used for styling the website, creating visually appealing layouts, and ensuring a cohesive design.
+# CSS: 
+Used for styling the website, creating visually appealing layouts, and ensuring a cohesive design.
 
-# JavaScript: Used for adding interactivity to the website, such as dynamic content updates, user input validation, and map interactions.
+# JavaScript: 
+Used for adding interactivity to the website, such as dynamic content updates, user input validation, and map interactions.
 
 # Usage
 To use or modify this project, follow these steps:
